@@ -11,9 +11,9 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*passwall2\)/\1/' feeds.conf.default
-sed -i 's/^#\(.*packages\)/\1/' feeds.conf.default
-sed -i 's/^#\(.*luci\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*PW2luci\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*PWpackages\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*PWluci\)/\1/' feeds.conf.default
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
